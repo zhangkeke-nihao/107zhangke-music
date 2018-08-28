@@ -1,0 +1,33 @@
+.delete{
+    z-index: 100;
+    position: fixed;
+    left:10%;
+    top: 15%;
+    width: 75%;
+    height: 150px;
+    padding:5px 20px;
+    background: #fff;
+    font-size: 18px;
+    color: #000;
+    border-radius: 10px;
+    transition: transfrom .3s linear;
+    transform: translateY(100%);
+}
+.delete-btn{
+    margin-top:30px;
+    display: flex;
+    justify-content: space-between;
+}
+.cancle-btn{
+    margin-top:10px;
+    color: rgb(155, 154, 154); 
+}
+.sure-btn{
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 30px;
+    background: #ff2769;
+    color: #fff;
+}

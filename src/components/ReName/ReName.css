@@ -1,0 +1,42 @@
+.renamemenu{
+    z-index: 100;
+    position: fixed;
+    left:10%;
+    top: 25%;
+    width: 75%;
+    height: 150px;
+    padding:5px 20px;
+    background: #fff;
+    font-size: 18px;
+    color: #000;
+    border-radius: 10px;
+    transition: transfrom .3s linear;
+    transform: translateY(100%);
+}
+.input-box input{
+    width: 100%;
+    padding: 5px;
+    background:no-repeat 0 0 scroll #fff;
+    border:none;
+    outline:medium;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+.rename-btn{
+    margin-top:20px;
+    display: flex;
+    justify-content: space-between;
+}
+.cancle-btn{
+    margin-top:10px;
+    color: rgb(155, 154, 154); 
+}
+.sure-btn{
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 30px;
+    background: #ff2769;
+    color: #fff;
+}

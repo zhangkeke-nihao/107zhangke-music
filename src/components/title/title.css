@@ -1,0 +1,22 @@
+.head-wrap{
+    position: relative;
+    padding:20px 15px 15px 15px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #ff2769;
+    font-weight: bold;
+}
+.back-img{
+    width:10px;
+    height: 15px;
+    margin-right:5px;
+}
+.back-name{
+    position: absolute;top:18px;
+}
+.title{
+    font-weight: bold;
+    color: #000;
+    margin-top:-2px;
+}

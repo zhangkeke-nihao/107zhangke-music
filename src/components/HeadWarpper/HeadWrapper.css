@@ -1,0 +1,6 @@
+.head-tab-warp{
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    z-index: 50;
+}
